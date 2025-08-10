@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 43,
   "boxShadow": "none",
   "defaultOptionValue": "[\n  \"FoxNuts\",\n  \"Fruits\",\n\t\"Vegetables\",\n\t\"Extra needs\"\n]",
   "dynamicBindingPathList": [
@@ -37,6 +37,8 @@
   "needsErrorInfo": false,
   "optionLabel": "name",
   "optionValue": "code",
+  "originalBottomRow": 45,
+  "originalTopRow": 36,
   "parentColumnSpace": 16.15869140625,
   "parentId": "z26lmiz3fc",
   "parentRowSpace": 10,
@@ -59,7 +61,7 @@
       "name": "Red"
     }
   ],
-  "topRow": 31,
+  "topRow": 35,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
   "widgetId": "ng94l2f6on",

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 29,
+  "bottomRow": 34,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,6 +30,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 25,
   "needsErrorInfo": false,
+  "originalBottomRow": 34,
+  "originalTopRow": 30,
   "overflow": "NONE",
   "parentColumnSpace": 16.15869140625,
   "parentId": "z26lmiz3fc",
@@ -41,7 +43,7 @@
   "text": "Product Details",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 25,
+  "topRow": 30,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
