@@ -1,0 +1,12 @@
+{
+  "personalizations": [
+    {
+      "to": [{"email": "{{CustomerEmailInput.text}}"}],
+      "subject": "Your Quotation from International Trade Dynamics"
+    }
+  ],
+  "from": {"email": "you@example.com"},
+  "content": [
+    {"type": "text/plain", "value": "Hi {{CustomerNameInput.text}}, please find your quotation here: {{appsmith.store.generatedPdfUrl}}"}
+  ]
+}
