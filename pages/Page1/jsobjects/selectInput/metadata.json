@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "6898e3a0ea809768ded068b5_3635d9dc-bb00-4e50-8bb6-5fdcbcf55d10",
+  "id": "Page1_selectInput",
+  "unpublishedCollection": {
+    "name": "selectInput",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

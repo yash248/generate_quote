@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 42,
   "boxShadow": "none",
-  "defaultOptionValue": "[\n  \"FoxNuts\",\n  \"Fruits\",\n\t\"Vegetables\",\n\t\"Extra needs\"\n]",
+  "defaultOptionValue": "GREEN",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,56 +14,48 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "uii7fpvgqu",
+  "key": "198gimacs9",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Product Category",
+  "labelText": "CurrencySelect",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 1,
+  "leftColumn": 25,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 38,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 21,
+  "mobileLeftColumn": 25,
+  "mobileRightColumn": 45,
   "mobileTopRow": 31,
   "needsErrorInfo": false,
   "optionLabel": "name",
   "optionValue": "code",
-  "originalBottomRow": 45,
-  "originalTopRow": 36,
-  "parentColumnSpace": 16.15869140625,
+  "originalBottomRow": 38,
+  "originalTopRow": 31,
+  "parentColumnSpace": 20.25,
   "parentId": "z26lmiz3fc",
   "parentRowSpace": 10,
-  "placeholderText": "Select option(s)",
+  "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 21,
+  "rightColumn": 44,
   "serverSideFiltering": false,
-  "sourceData": [
-    {
-      "code": "BLUE",
-      "name": "Blue"
-    },
-    {
-      "code": "GREEN",
-      "name": "Green"
-    },
-    {
-      "code": "RED",
-      "name": "Red"
-    }
-  ],
+  "sourceData": "[\n  {\n    \"name\": \"INR\",\n    \"code\": \"BLUE\"\n  },\n  {\n    \"name\": \"USD\",\n    \"code\": \"GREEN\"\n  },\n  {\n    \"name\": \"EUR\",\n    \"code\": \"RED\"\n  },\n\t{\n    \"name\": \"AED\",\n    \"code\": \"RED\"\n  }\n]",
   "topRow": 35,
-  "type": "MULTI_SELECT_WIDGET_V2",
+  "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "ng94l2f6on",
-  "widgetName": "MultiSelect1"
+  "widgetId": "iqxatmvawi",
+  "widgetName": "Select2"
 }

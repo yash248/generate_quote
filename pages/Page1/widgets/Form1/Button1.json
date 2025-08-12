@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 90,
+  "bottomRow": 122,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonVariant": "PRIMARY",
@@ -12,6 +12,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "tooltip"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
     }
   ],
   "isDefaultClickDisabled": true,
@@ -19,24 +27,26 @@
   "isLoading": false,
   "isVisible": true,
   "key": "agzfarutqp",
-  "leftColumn": 41,
+  "leftColumn": 43,
   "minWidth": 120,
   "mobileBottomRow": 37,
   "mobileLeftColumn": 46,
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 90,
-  "originalTopRow": 86,
+  "onClick": "{{Insert_Quote.run().then(() => {\n  send_email.run();\n}).catch(() => {\n  Insert_Quote.run().catch(() => {\n    // showAlert('failure');\n  });\n});}}",
+  "originalBottomRow": 118,
+  "originalTopRow": 114,
   "parentId": "z26lmiz3fc",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
-  "rightColumn": 57,
+  "rightColumn": 59,
   "text": "Submit",
-  "topRow": 86,
+  "tooltip": "{{Insert_Quote.data}}",
+  "topRow": 118,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "ncwg48xtjy",
