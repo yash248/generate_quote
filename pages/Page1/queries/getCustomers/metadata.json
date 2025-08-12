@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "command": {
-          "data": "FETCH_MANY"
+          "data": "INSERT_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -27,6 +27,9 @@
         },
         "range": {
           "data": ""
+        },
+        "rowObjects": {
+          "data": "{\n\t\t\"name\": \"{{Input3.text}}\",\n\t\t\"company\": \"{{Input1.text}}\",\n\t\t\"email\": \"{{Input4.text}}\",\n\t\t\"country\": \"{{Custom1.isVisible}}\",\n\t\t\"phone\": \"{{PhoneInput1.value}}\",\n\t\t\"currency\": \"{{Select2.selectedOptionValue}}\",\n\t\t\"incoterm\": \"{{Select1.selectedOptionValue}}\",\n\t\t\"port\": \"{{Input19.text}}\"\n}"
         },
         "sheetName": {
           "data": "customers"
@@ -69,7 +72,11 @@
       "name": "Untitled datasource 5",
       "pluginId": "google-sheets-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "name": "getCustomers",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",

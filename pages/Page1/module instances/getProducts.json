@@ -1,0 +1,14 @@
+{
+  "gitSyncId": "6898e3a0ea809768ded068b5_b6628446-302e-479d-a953-f50995653490",
+  "id": "Page1_getProducts",
+  "moduleUUID": "60671f54-552b-49b6-bb9f-8b679ea83a8a",
+  "packageUUID": "3ef73970-7852-41f9-b0f3-9d0f7e2f1f54",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {},
+    "moduleInputs": {},
+    "name": "getProducts",
+    "pageId": "Page1"
+  }
+}
