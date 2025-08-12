@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6898e3a0ea809768ded068b5_9ec9a023-5835-4de8-a5c0-0fa3fe422d06",
-  "id": "Page1_getQuotes",
+  "gitSyncId": "6898e3a0ea809768ded068b5_749fa3b1-2a42-4a4e-b58e-8756ffc2e7f4",
+  "id": "Page1_getcustomer",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -28,11 +28,8 @@
         "range": {
           "data": ""
         },
-        "rowObjects": {
-          "data": "{\n  \"quote_id\": {{this.params.quote_id}},\n  \"pdf_url\": {{this.params.pdf_url}}\n}\n"
-        },
         "sheetName": {
-          "data": "quotes"
+          "data": "customers"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1YkcplGLfZApIX_4OBet4THMBUHPTbHjwfK-n4eSscgM/edit"
@@ -72,14 +69,10 @@
       "name": "Untitled datasource 5",
       "pluginId": "google-sheets-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.rowObjects.data"
-      }
-    ],
-    "name": "getQuotes",
+    "dynamicBindingPathList": [],
+    "name": "getcustomer",
     "pageId": "Page1",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

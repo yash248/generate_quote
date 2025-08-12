@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "6898e3a0ea809768ded068b5_7c7ffa0f-ae26-44ad-875a-65753e1976c7",
+  "id": "Page1_PrintPDF",
+  "unpublishedCollection": {
+    "name": "PrintPDF",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

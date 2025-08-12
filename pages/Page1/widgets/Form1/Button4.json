@@ -1,10 +1,10 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 326,
+  "bottomRow": 327,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-  "buttonVariant": "SECONDARY",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
@@ -14,31 +14,39 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "agzfarutqp",
-  "leftColumn": 9,
+  "key": "4unnzied9b",
+  "leftColumn": 21,
   "minWidth": 120,
-  "mobileBottomRow": 37,
-  "mobileLeftColumn": 30,
-  "mobileRightColumn": 46,
-  "mobileTopRow": 33,
+  "mobileBottomRow": 327,
+  "mobileLeftColumn": 21,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 323,
   "needsErrorInfo": false,
-  "originalBottomRow": 326,
-  "originalTopRow": 322,
+  "onClick": "{{PrintPDF.render();}}",
+  "originalBottomRow": 327,
+  "originalTopRow": 323,
+  "parentColumnSpace": 20.25,
   "parentId": "z26lmiz3fc",
+  "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": true,
+  "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 18,
-  "text": "Reset",
-  "topRow": 322,
+  "rightColumn": 37,
+  "text": "generate PDF",
+  "topRow": 323,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "act8joorjj",
-  "widgetName": "Button2"
+  "widgetId": "nkwn5kjktq",
+  "widgetName": "Button4"
 }

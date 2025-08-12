@@ -1,0 +1,1 @@
+{{ storeValue("fx", getFX.data) }}

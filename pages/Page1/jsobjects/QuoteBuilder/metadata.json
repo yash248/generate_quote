@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "6898e3a0ea809768ded068b5_120a7353-7af7-4e9c-86ff-793e92f52a2f",
+  "id": "Page1_QuoteBuilder",
+  "unpublishedCollection": {
+    "name": "QuoteBuilder",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "ItemsState",
+        "value": "[]"
+      }
+    ]
+  }
+}

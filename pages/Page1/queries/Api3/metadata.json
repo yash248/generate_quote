@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6898e3a0ea809768ded068b5_5d919e38-a9ee-49ce-973b-93f0c6eb4542",
-  "id": "Page1_getCustomers",
+  "gitSyncId": "6898e3a0ea809768ded068b5_a1fa1684-0821-4228-ba08-011b115f1940",
+  "id": "Page1_Api3",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "command": {
-          "data": "INSERT_ONE"
+          "data": "FETCH_MANY"
         },
         "entityType": {
           "data": "ROWS"
@@ -28,11 +28,8 @@
         "range": {
           "data": ""
         },
-        "rowObjects": {
-          "data": "{\n\t\t\"name\": \"{{Input3.text}}\",\n\t\t\"company\": \"{{Input1.text}}\",\n\t\t\"email\": \"{{Input4.text}}\",\n\t\t\"country\": \"{{Custom1.isVisible}}\",\n\t\t\"phone\": \"{{PhoneInput1.value}}\",\n\t\t\"currency\": \"{{Select2.selectedOptionValue}}\",\n\t\t\"incoterm\": \"{{Select1.selectedOptionValue}}\",\n\t\t\"port\": \"{{Input19.text}}\"\n}"
-        },
         "sheetName": {
-          "data": "customers"
+          "data": "quote_items"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1YkcplGLfZApIX_4OBet4THMBUHPTbHjwfK-n4eSscgM/edit"
@@ -72,12 +69,8 @@
       "name": "Untitled datasource 5",
       "pluginId": "google-sheets-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.rowObjects.data"
-      }
-    ],
-    "name": "getCustomers",
+    "dynamicBindingPathList": [],
+    "name": "Api3",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

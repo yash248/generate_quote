@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6898e3a0ea809768ded068b5_9ec9a023-5835-4de8-a5c0-0fa3fe422d06",
-  "id": "Page1_getQuotes",
+  "gitSyncId": "6898e3a0ea809768ded068b5_5d919e38-a9ee-49ce-973b-93f0c6eb4542",
+  "id": "Page1_addCustomersQuote",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "command": {
-          "data": "FETCH_MANY"
+          "data": "INSERT_ONE"
         },
         "entityType": {
           "data": "ROWS"
@@ -29,10 +29,10 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n  \"quote_id\": {{this.params.quote_id}},\n  \"pdf_url\": {{this.params.pdf_url}}\n}\n"
+          "data": "{\n\t\t\"name\": \"{{Input3.text}}\",\n\t\t\"company\": \"{{Input1.text}}\",\n\t\t\"email\": \"{{Input4.text}}\",\n\t\t\"country\": \"{{Custom1.isVisible}}\",\n\t\t\"phone\": \"{{PhoneInput1.value}}\",\n\t\t\"currency\": \"{{Select2.selectedOptionValue}}\",\n\t\t\"incoterm\": \"{{Select1.selectedOptionValue}}\",\n\t\t\"port\": \"{{Input19.text}}\",\n\t\t\"created_at\": \"{{DatePicker2.formattedDate}}\"\n}"
         },
         "sheetName": {
-          "data": "quotes"
+          "data": "customers"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1YkcplGLfZApIX_4OBet4THMBUHPTbHjwfK-n4eSscgM/edit"
@@ -77,9 +77,9 @@
         "key": "formData.rowObjects.data"
       }
     ],
-    "name": "getQuotes",
+    "name": "addCustomersQuote",
     "pageId": "Page1",
-    "runBehaviour": "AUTOMATIC",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
