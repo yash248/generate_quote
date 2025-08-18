@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6898e3a0ea809768ded068b5_40dba510-b6fd-4025-9250-a4feb00b7cea",
-  "id": "Page1_Api2",
+  "gitSyncId": "6898e3a0ea809768ded068b5_87b382ca-2ac5-47ac-932b-2e68e49f9833",
+  "id": "Page1_getFx",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -70,7 +70,7 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "Api2",
+    "name": "getFx",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false

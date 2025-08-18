@@ -16,7 +16,7 @@
     },
     "name": "_$getProducts$_getProductsModule",
     "pageId": "Page1",
-    "runBehaviour": "AUTOMATIC",
-    "userSetOnLoad": false
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }

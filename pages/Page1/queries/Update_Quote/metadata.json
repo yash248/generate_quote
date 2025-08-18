@@ -28,8 +28,11 @@
         "range": {
           "data": ""
         },
+        "rowObjects": {
+          "data": "{{\n\t{\n  \"quote_id\": {{ quote}},\n  \"pdf_url\": {{this.params.pdf_url}}\n\t}\n}}"
+        },
         "sheetName": {
-          "data": "quotations"
+          "data": "quotes"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1YkcplGLfZApIX_4OBet4THMBUHPTbHjwfK-n4eSscgM/edit"
@@ -56,7 +59,11 @@
       "name": "Untitled datasource 4",
       "pluginId": "google-sheets-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "name": "Update_Quote",
     "pageId": "Page1",
     "runBehaviour": "MANUAL",

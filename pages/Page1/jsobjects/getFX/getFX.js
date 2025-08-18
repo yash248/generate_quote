@@ -1,1 +1,3 @@
-{{ storeValue("fx", getFX.data) }}
+export default {
+	storeValue("fx", getFX.data)
+}

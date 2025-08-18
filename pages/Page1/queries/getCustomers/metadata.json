@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6898e3a0ea809768ded068b5_749fa3b1-2a42-4a4e-b58e-8756ffc2e7f4",
-  "id": "Page1_getcustomer",
+  "id": "Page1_getCustomers",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -60,7 +60,7 @@
         }
       },
       "paginationType": "NONE",
-      "timeoutInMillisecond": 10000
+      "timeoutInMillisecond": 30000
     },
     "confirmBeforeExecute": false,
     "datasource": {
@@ -70,9 +70,9 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "getcustomer",
+    "name": "getCustomers",
     "pageId": "Page1",
-    "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }
