@@ -1,6 +1,6 @@
 export default {
   render() {
-    const tpl = QuoteTemplate.text;
+    const tpl = QuoteForm.text;
     const data = QuoteBuilder.payload();
 
     function rows(items){

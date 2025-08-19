@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 27,
   "boxShadow": "none",
-  "defaultOptionValue": "GREEN",
+  "defaultOptionValue": "FOB",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -55,5 +55,5 @@
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "6nig7fwksc",
-  "widgetName": "Select1"
+  "widgetName": "IncotermSelect"
 }

@@ -29,7 +29,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\t\"name\": \"{{Input3.text}}\",\n\t\t\"company\": \"{{Input1.text}}\",\n\t\t\"email\": \"{{Input4.text}}\",\n\t\t\"country\": \"{{Custom1.isVisible}}\",\n\t\t\"phone\": \"{{PhoneInput1.value}}\",\n\t\t\"currency\": \"{{Select2.selectedOptionValue}}\",\n\t\t\"incoterm\": \"{{Select1.selectedOptionValue}}\",\n\t\t\"port\": \"{{Input19.text}}\",\n\t\t\"created_at\": \"{{DatePicker2.formattedDate}}\"\n}"
+          "data": "{\n\t\t\"name\": \"{{ContactNameInput.text}}\",\n\t\t\"company\": \"{{CompanyInput.text}}\",\n\t\t\"email\": \"{{EmailInput.text}}\",\n\t\t\"country\": \"{{CountrySelect.isVisible}}\",\n\t\t\"phone\": \"{{PhoneInput.value}}\",\n\t\t\"currency\": \"{{CurrencySelect.selectedOptionValue}}\",\n\t\t\"incoterm\": \"{{IncotermSelect.selectedOptionValue}}\",\n\t\t\"port\": \"{{PortInput.text}}\",\n\t\t\"created_at\": \"{{ValidUntil.formattedDate}}\"\n}"
         },
         "sheetName": {
           "data": "customers"

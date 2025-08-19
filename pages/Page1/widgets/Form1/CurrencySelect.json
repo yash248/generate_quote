@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -28,7 +32,7 @@
   "key": "198gimacs9",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "CurrencySelect",
+  "labelText": "Currency",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 24,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 45,
   "mobileTopRow": 31,
   "needsErrorInfo": false,
+  "onOptionChange": "{{JSObject3.CurrencySelectonOptionChange();}}",
   "optionLabel": "name",
   "optionValue": "code",
   "originalBottomRow": 39,
@@ -57,5 +62,5 @@
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "iqxatmvawi",
-  "widgetName": "Select2"
+  "widgetName": "CurrencySelect"
 }
